@@ -109,7 +109,7 @@ void Board::createBoard(int** finalMat, int imgSize){
     
     }
     
-    for(int i = 0; i < imgSize; i++) {
+    for(int i = 0; i < gSize; i++) {
         delete[] matX[i];
         delete[] matO[i];
         delete[] matWhite[i];
